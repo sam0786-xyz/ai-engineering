@@ -1,4 +1,4 @@
-# # Day 2 - Pydantic Validation
+# # Day 2 16th and 17th May 2026 - Pydantic Validation
 # Uncomment the code to run it
 
 from pydantic import BaseModel,ValidationError, Field, field_validator, ConfigDict
