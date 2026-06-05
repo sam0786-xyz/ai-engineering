@@ -19,3 +19,13 @@ async def create_book(book: Book):
     await asyncio.sleep(0.5) 
     
     return {"message": "Book saved successfully!", "data": book}
+
+# Day 5 3rd June 2026
+
+@app.get("/")
+def root():
+    return {"message": "Hello World"}
+
+@app.get("/hello")
+def hello(name: str = "Sameer"):
+    return {"message": f"Hello {name}"}
